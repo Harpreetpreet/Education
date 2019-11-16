@@ -8,7 +8,7 @@ module.exports = {
   logo: '/images/logo-1024.png',
 
   telephone: '+91 9878448082',
-  email: 'preetx025@gmail.com.com',
+  email: 'preetx025@gmail.com',
   location: 'GORAYA , United State Of ATTA',
   twitter: '@NAME-HERE',
   fbUserId: '@NAME-HERE',
