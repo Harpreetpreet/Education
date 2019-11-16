@@ -64,8 +64,7 @@ export default class Header extends React.Component {
           <nav
             className="navbar"
             role="navigation"
-            aria-label="main navigation"
-          >
+            aria-label="main navigation">
             <div className="navbar-brand">
               <Link className="navbar-item" to="/">
                 <img src="/images/logo-1024.png" alt="site logo" />
@@ -81,26 +80,31 @@ export default class Header extends React.Component {
                 aria-label="menu"
                 aria-expanded="false"
                 data-target="navbarBasicExample"
-                onClick={() => this.handleMobileMenu()}
-              >
+                onClick={() => this.handleMobileMenu()}>
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
               </a>
             </div>
             <div className={isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
-              <div className="navbar-start">
+              <div className="navbar-end">
                 <Link to="/" className="navbar-item">
-                  Home
+                  HOME
                 </Link>
                 <Link to="/about" className="navbar-item">
-                  About
+                  ABOUT
                 </Link>
                 <Link to="/news" className="navbar-item">
-                  News
+                  COURSES
+                </Link>
+                <Link to="/" className="navbar-item">
+                  PAGES
+                </Link>
+                <Link to="/" className="navbar-item">
+                  BLOGS
                 </Link>
                 <Link to="/contact" className="navbar-item">
-                  Contact
+                  CONTACTS
                 </Link>
               </div>
             </div>
