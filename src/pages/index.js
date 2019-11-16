@@ -4,10 +4,17 @@ import styled from 'styled-components';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 
-const Container = styled.div`
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+const Section = styled.div`
   text-align: center;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  background: url("/images/home-banner.jpg");
+  }
+  .section{
+   
+  }
   h1 {
     color: ${props => props.theme.mainBrandColor} !important;
   }
@@ -18,13 +25,12 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <Seo title="Home" description="Welcome to GatsbyJs v1" />
-        <section className="section">
-          <Container className="container">
-            <h1 className="title">Hi people</h1>
-            <p>Welcome to your new Gatsby site.</p>
-            <p>Now go build something great.</p>
-          </Container>
-        </section>
+
+        <Section className="section">
+          <h1 className="title">We Ensure better education</h1>
+          <p>Welcome to your new Gatsby site.</p>
+          <p>Now go build something great.</p>
+        </Section>
       </Layout>
     );
   }
