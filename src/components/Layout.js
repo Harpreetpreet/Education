@@ -21,6 +21,7 @@ const IndexLayout = ({ children, hideHeader }) => (
       </Helmet>
       <GlobalStyle />
       {!hideHeader && <Header />}
+
       <Container>{children}</Container>
     </>
   </ThemeProvider>

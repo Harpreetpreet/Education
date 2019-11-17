@@ -1,16 +1,21 @@
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import styled from 'styled-components';
 
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
+import Feature from '../components/Feature';
 
-const Section = styled.div`
+const Container = styled.div`
   text-align: center;
   background: url("/images/home-banner.jpg");
   background-position: center;
     background-repeat: no-repeat;
+    background-size:cover;
     overflow: hidden;
-    min-height: 780px;
+    min-height: 650px;
+
   }
   h1 {
     color: ${props => props.theme.mainBrandColor} !important;
@@ -22,6 +27,8 @@ const Section = styled.div`
   margin-top: 12rem;
 }
   p{
+    padding: 30px;
+    margin-top: -23px !important;
     font-size: 14px;
     line-height: 24px;
     font-family: "Roboto", sans-serif;
@@ -31,7 +38,7 @@ const Section = styled.div`
     color:#FFFFFF  !important;
   }
   button{
-    margin-top: 3rem;
+    margin-top: 5rem;
     font-size: 22px;
     background-color:#F14668 !important;
     color: white !important;
@@ -50,20 +57,22 @@ export default class IndexPage extends React.Component {
       <Layout>
         <Seo title="Home" description="Welcome to GatsbyJs v1" />
 
-        <Section className="section">
+        <Container>
           <div className="text">
-          <h1 className="title">
-            We Ensure better education
-            <h1 className="title">for a better world</h1>
-          </h1>
+            <h1 className="title">
+              We Ensure better education
+              <h1 className="title">for a better world</h1>
+            </h1>
           </div>
           <p>
             In the history of modern astronomy, there is probably no one greater
             leap forward than the building
             <span>and launch of the space telescope known as the Hubble.</span>
           </p>
-          <button class="button is-danger is-outlined">Get Started</button>
-        </Section>
+
+          <button className="button is-danger is-outlined">Get Started</button>
+        </Container>
+        <Feature />
       </Layout>
     );
   }
