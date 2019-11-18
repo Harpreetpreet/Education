@@ -14,7 +14,7 @@ const Container = styled.div`
     background-repeat: no-repeat;
     background-size:cover;
     overflow: hidden;
-    min-height: 650px;
+    min-height: 700px;
 
   }
   h1 {
