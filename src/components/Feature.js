@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
 
@@ -35,9 +36,54 @@ const Feature = () => (
         </div>
       </div>
       <div className="columns">
-        <div className="column">First column</div>
-        <div className="column">Second column</div>
-        <div className="column">Third column</div>
+        <div className="card">
+          <div className="card-content">
+            <div className="media">
+              <div className="media-left">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+            </div>
+
+            <div className="content">
+              <h2>Scholarship Facility </h2>
+              One make creepeth, man bearing theira firmament won't great heaven
+            </div>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-content">
+            <div className="media">
+              <div className="media-left">
+              <i class="fas fa-book-open"></i>
+              </div>
+            </div>
+
+            <div className="content">
+              <h2>Sell Online Course </h2>
+              One make creepeth, man bearing theira firmament won't great heaven
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="media">
+              <div className="media-left">
+                <figure className="image is-48x48">
+                  <img
+                    src="https://bulma.io/images/placeholders/96x96.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <div className="content">
+              <h2>Global Certification </h2>
+              One make creepeth, man bearing theira firmament won't great heaven
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </Container>
