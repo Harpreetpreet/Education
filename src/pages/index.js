@@ -27,7 +27,7 @@ const Container = styled.div`
   margin-top: 12rem;
 }
   p{
-    padding: 30px;
+    padding:1rem;
     margin-top: -23px !important;
     font-size: 14px;
     line-height: 24px;
