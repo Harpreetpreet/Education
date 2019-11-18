@@ -55,7 +55,7 @@ const Feature = () => (
           <div className="card-content">
             <div className="media">
               <div className="media-left">
-              <i class="fas fa-book-open"></i>
+                <i class="fas fa-book-open"></i>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ const Feature = () => (
           <div className="card-content">
             <div className="media">
               <div className="media-left">
-              <i class="fas fa-globe-asia"></i>
+                <i class="fas fa-globe-asia"></i>
               </div>
             </div>
 
