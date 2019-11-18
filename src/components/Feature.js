@@ -69,12 +69,7 @@ const Feature = () => (
           <div className="card-content">
             <div className="media">
               <div className="media-left">
-                <figure className="image is-48x48">
-                  <img
-                    src="https://bulma.io/images/placeholders/96x96.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
+              <i class="fas fa-globe-asia"></i>
               </div>
             </div>
 
