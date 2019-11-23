@@ -8,7 +8,8 @@ const Section = styled.section`
   padding: 1rem 1.5rem;
   font-family: ${props => props.theme.primaryFontFamily};
   .navbar {
-    background-color: transparent;
+    margin-top: -1rem;
+    padding: 2rem;
   }
   .navbar-brand {
     margin-right: 20px;
@@ -62,7 +63,7 @@ export default class Header extends React.Component {
       <Section className="section">
         <div className="container">
           <nav
-            className="navbar"
+            className="navbar is-fixed-top"
             role="navigation"
             aria-label="main navigation">
             <div className="navbar-brand">

@@ -15,6 +15,7 @@ const Container = styled.div`
     background-size:cover;
     overflow: hidden;
     min-height: 700px;
+    margin-top:4rem;
 
   }
   h1 {
@@ -64,6 +65,7 @@ export default class IndexPage extends React.Component {
               <h1 className="title">for a better world</h1>
             </h1>
           </div>
+
           <p>
             In the history of modern astronomy, there is probably no one greater
             leap forward than the building

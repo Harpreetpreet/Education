@@ -23,6 +23,9 @@ const Container = styled.div`
     color: #7b838a !important;
     font-weight: 600;
   }
+  .card {
+    background: #f9f9ff;
+  }
 `;
 
 const Feature = () => (
