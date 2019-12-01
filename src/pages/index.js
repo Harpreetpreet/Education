@@ -1,5 +1,3 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import styled from 'styled-components';
 
@@ -71,7 +69,6 @@ export default class IndexPage extends React.Component {
             leap forward than the building
             <span>and launch of the space telescope known as the Hubble.</span>
           </p>
-
           <button className="button is-danger is-outlined">Get Started</button>
         </Container>
         <Feature />
